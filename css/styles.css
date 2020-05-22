@@ -7,3 +7,12 @@
 body {
     background-color: rgb(17, 7, 34);
 }
+
+header {
+    background-color: #fff;
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+}
