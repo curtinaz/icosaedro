@@ -1,10 +1,38 @@
-header#main-header {
-    height: 70px;
-    background-color: rgb(255, 102, 0);
-    font-size: 18px;
-    line-height: 28px;
-    color: white;
-    display: flex;
-    justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+#main-header {
+    border-radius: 20px;
+    width: 80%;
+    height: 60vh;
+    background-color: #424242;
     align-items: center;
+    margin: auto;
+    opacity: 0;
+
+    animation: fadein forwards 800ms;
+    animation-delay: 1500ms;
+}
+
+Header div {
+    padding: 10px 10px 0 20px;
+}
+
+Header div h1 {
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+        margin-top: 20px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
 }
