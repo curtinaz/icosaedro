@@ -15,4 +15,4 @@ const App = () => (
 
 export default App;
 
-// Neste dia
+// Neste dia, aprendi arrow functions
